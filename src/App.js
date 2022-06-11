@@ -9,6 +9,8 @@ import Home from "./Pages/Home/Home"
 import MyProjects from "./Pages/MyProjects/MyProjects";
 import About from "./Pages/About/About";
 import Contact from "./Pages/Contact/Contact";
+import Blogs from "./Pages/Blogs/Blogs";
+import Details from "./Pages/MyProjects/Details";
 function App() {
   return (
     <div className=" max-w-screen-xl mx-auto">
@@ -18,6 +20,8 @@ function App() {
         <Route path='/myPortfolio' element={<MyProjects></MyProjects>}></Route>
         <Route path='/aboutMe' element={<About></About>}></Route>
         <Route path='/contact' element={<Contact></Contact>}></Route>
+        <Route path='/blogs' element={<Blogs></Blogs>}></Route>
+        {/* <Route path='/details' element={<Details></Details>}></Route> */}
       </Routes>
     </div>
   );

@@ -1,0 +1,31 @@
+[
+    {
+        "id": "1",
+        "img1": "https://i.ibb.co/dppcFh8/pro1.jpg",
+        "details": [
+            "Developed front-end user experience using Tailwind CSS Component library daisyUI,React.Js, Node.Js, Express.js and MongoDB.",
+            "Allowed users to have a customized experience based on the mood of the user throughout the entire experience ofthe application.",
+            "Implemented React Router DOM to allow nested RESTful routing and Google login.",
+            "In this project has include technology- Google Firebase, React RouterHook, React Hook Form, ReactQuery,React Toastify ,Nodemon."
+        ]
+    },
+    {
+        "id": "2",
+        "img1": "https://i.ibb.co/3mkm6j0/pro2.jpg",
+        "details": [
+            "Developed front-end with CSS, Bootstrap, React Bootstrap, React.Js, Node.Js, Express.js and MongoDB.",
+            "Implemented React Router, Google Login.",
+            "User Experience with CSS Grids that allowed the user to view any product.",
+            "In this project has include technology- React Router Hook, React Hook Form, React Query, React Toastify, Google Firebase, Nodemon."
+        ]
+    },
+    {
+        "id": "3",
+        "img1": "https://i.ibb.co/dMryBKs/pro3.jpg",
+        "details": [
+            "Designed a community center website for marriage counseling with marriage media.",
+            "Developed front-end with HTML, CSS and Bootstrap.",
+            "Created Mobile Responsive User Experience with Bootstrap Grids that website visitors."
+        ]
+    }
+]

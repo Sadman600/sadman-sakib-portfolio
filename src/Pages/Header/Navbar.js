@@ -1,12 +1,15 @@
 import React from 'react';
+import logo from '../../Images/logo.png';
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     const myMenu = <>
         <li><Link to='/'>Home</Link></li>
         <li><Link to='/myPortfolio'>Portfolio</Link></li>
-        <li><Link to='/aboutMe'>About Me</Link></li>
-        <li><Link to='/Contact'>Contact Me</Link></li>
+        <li><Link to='/aboutMe'>About</Link></li>
+        <li><Link to='/Contact'>Contact</Link></li>
+        <li><Link to='/blogs'>Blogs</Link></li>
+        {/* <li><Link to='/details'>Ds</Link></li> */}
     </>
     return (
         <div class="navbar bg-base-100">
@@ -21,7 +24,7 @@ const Navbar = () => {
                         }
                     </ul>
                 </div>
-                {/* <a class="btn btn-ghost normal-case text-xl">Sadman Sakib</a> */}
+                <Link to='/'><img src={logo} alt='' /></Link>
             </div>
             <div class="navbar-center hidden lg:flex">
                 <ul class="menu menu-horizontal p-0">

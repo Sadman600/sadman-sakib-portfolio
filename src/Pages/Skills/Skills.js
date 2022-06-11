@@ -7,6 +7,7 @@ import logo5 from '../../Images/logo-5.jpg';
 import logo6 from '../../Images/logo-6.png';
 import logo7 from '../../Images/logo-7.png';
 import logo8 from '../../Images/logo-8.png';
+import logo9 from '../../Images/logo-9.png';
 const Skills = () => {
     return (
         <div className='my-4'>
@@ -47,6 +48,18 @@ const Skills = () => {
                     </figure>
                     <div className="card-body items-center text-center">
                         <h2 className="card-title">Bootstrap</h2>
+                    </div>
+                </div>
+                <div className="card w-96 bg-base-100 shadow-xl">
+                    <figure className="px-10 pt-10">
+                        <div className="avatar ">
+                            <div className="w-24 rounded-full">
+                                <img src={logo9} alt='' />
+                            </div>
+                        </div>
+                    </figure>
+                    <div className="card-body items-center text-center">
+                        <h2 className="card-title">TailwindCSS</h2>
                     </div>
                 </div>
                 <div className="card w-96 bg-base-100 shadow-xl">
@@ -109,6 +122,7 @@ const Skills = () => {
                         <h2 className="card-title">MongoDB</h2>
                     </div>
                 </div>
+
 
             </div>
         </div>
